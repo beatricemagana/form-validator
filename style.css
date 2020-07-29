@@ -2,11 +2,10 @@
 
 :root {
     --sucess-color: #2ecc71;
-    /* when this element gets the class of success this will happen*/
     --error-color: #e74c3c;
 }
 
-* { /* adds to everything, so no padding to effect the width of the element*/
+* { 
     box-sizing: border-box;
 };
 
@@ -57,12 +56,12 @@ h2 {
     font-size: 14px;
 }
 
-.form-control input:focus { /* removes the automatic focus of a blue line around the box */
+.form-control input:focus { 
     outline: 0; 
     border-color: #777;
 }
 
-.form-control.sucess input { /* when this element gets the class of success this will happen*/
+.form-control.sucess input { 
     border-color: var(--sucess-color);
 }
 
