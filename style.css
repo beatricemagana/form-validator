@@ -5,12 +5,12 @@
     --error-color: #e74c3c;
 }
 
-* { 
+/* * { 
     box-sizing: border-box;
-};
+}; */
 
 body{
-    background-color: #f9fafb;
+    background-color: #113150;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ h2 {
 }
 
 .form-control label {
-    color: #777;
+    color: rgb(66, 65, 65);
     display: block;
     margin-bottom: 5px;
 }
@@ -58,7 +58,7 @@ h2 {
 
 .form-control input:focus { 
     outline: 0; 
-    border-color: #777;
+    border-color: rgb(161, 159, 159);
 }
 
 .form-control.sucess input { 
